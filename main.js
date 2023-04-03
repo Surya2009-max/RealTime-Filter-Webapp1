@@ -21,7 +21,7 @@ function modelLoaded() {
 
 function draw() {
     image(video, 0, 0, 400, 400);
-
+}
 
 
     function gotPoses(results) {
@@ -31,6 +31,3 @@ function draw() {
             console.log("y cordinate of a muostache" + results[0].pose.nose.y);
         }
     }
-
-
-    save('myFilter.png');
